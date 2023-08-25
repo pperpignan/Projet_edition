@@ -32,8 +32,7 @@ body {
   position: absolute;
   top: 39px;
   left: 150px;
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -47,8 +46,7 @@ body {
 
 .v5_661_a p {
 	color: rgba(0,0,0,1);
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: center;
@@ -61,8 +59,7 @@ body {
   position: absolute;
   top: 39px;
   left: 227px;
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -78,8 +75,7 @@ body {
   position: absolute;
   top: 39px;
   left: 285px;
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -122,8 +118,7 @@ body {
 .v1_300 {
   width: 380px;
   color: rgba(0,0,0,1);
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 72px;
   opacity: 1;
   text-align: left;
@@ -144,7 +139,7 @@ body {
 }
 
 .v1_301_a p{
-	font-family: Bebas Neue;
+	font-family: "Bebas Neue";
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -210,7 +205,6 @@ margin-left:30px;
   width: 245px;
   color: rgba(0,0,0,1);
   font-family: Montserrat;
-  font-weight: Regular;
   font-size: 20px;
   opacity: 1;
   text-align: left;
@@ -245,8 +239,7 @@ margin-left:30px;
 
 .v5_661_b p {
 	color: rgba(0,0,0,1);
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: center;
@@ -259,7 +252,6 @@ margin-left:30px;
   top: 1410px;
   left: 141px;
   font-family: Montserrat;
-  font-weight: Regular;
   font-size: 20px;
   opacity: 1;
   text-align: left;
@@ -274,8 +266,7 @@ margin-left:30px;
 
 .v5_661_c p {
 	color: rgba(0,0,0,1);
-  font-family: Bebas Neue;
-  font-weight: Regular;
+  font-family: "Bebas Neue";
   font-size: 24px;
   opacity: 1;
   text-align: center;
@@ -400,7 +391,6 @@ margin-left:30px;
   top: 1410px;
   left: 141px;
   font-family: Montserrat;
-  font-weight: Regular;
   font-size: 20px;
   opacity: 1;
   text-align: center;
@@ -438,24 +428,29 @@ footer{
 
 @media screen and (max-width: 940px) {
 	.bloc_principal {
-		margin-left: 25%;
+		margin: auto;
+		max-width: 420px;
+		padding-top: 10px;
 	}
+	
 	.bloc_image1 {
-		margin-left: 4%;
+		max-width: 730px;
+		margin: auto;
 	}
 	.bloc_image2 {
-		margin-left: 13%;
+		max-width: 650px;
+		padding: 6px 10px 10px 30px;
+	}
+	
+	.v2_73 {
+		text-align: center;
 	}
 }
 
 @media screen and (max-width: 620px) {
-	.bloc_principal {
-		margin-left: 5%;
-		margin-top:-70px;
-	}
 	
 	.titre {
-		width: 420px;
+		max-width: 420px;
 		margin:auto;
 	}
 	
@@ -503,9 +498,7 @@ footer{
 		margin-bottom: 30px;
 	}
 	
-	.v2_73 {
-		text-align: center;
-	}
+	
 	
 	.bloc_image2{
 		
