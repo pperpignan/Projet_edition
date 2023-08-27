@@ -116,7 +116,7 @@ body {
 }
 
 .v1_300 {
-  width: 380px;
+  max-width: 380px;
   color: rgba(0,0,0,1);
   font-family: "Bebas Neue";
   font-size: 72px;
@@ -448,6 +448,17 @@ footer{
 }
 
 @media screen and (max-width: 620px) {
+	.v5_661{
+		left:118px;
+	}
+	
+	.v5_662{
+		left:195px;
+	}
+	
+	.v5_664{
+		left:252px;
+	}
 	
 	.titre {
 		max-width: 420px;
@@ -502,7 +513,7 @@ footer{
 	
 	.bloc_image2{
 		
-		
+		padding: 0px 10px 0px 10px;
 		margin:auto;
 	}
 	
